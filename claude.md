@@ -19,14 +19,7 @@ Claude (claude.ai) assisted with the following during this project:
 \- \*\*Debugging\*\*: Diagnosing environment variable issues (`REACT\_APP\_BACKEND\_URL` returning `undefined`)
 
 \- \*\*Error analysis\*\*: Reading browser console errors and Flask server logs to identify 400 validation failures
-
-\- \*\*Styling\*\*: Improving the React frontend UI with better CSS (card layout, color-coded availability status)
-
-\- \*\*Configuration\*\*: Setting up `.env` file correctly and explaining virtual environment activation
-
-\- \*\*Documentation\*\*: Helping structure the README and explain technical decisions clearly
-
-
+                                                                                                                                                                                             
 
 \## Constraints Applied to AI Output
 
@@ -38,13 +31,11 @@ All AI-generated code and suggestions were held to the following standards:
 
 1\. \*\*No blind copy-paste\*\* — every suggestion was read and understood before use
 
-2\. \*\*Tested before accepting\*\* — all code changes were verified by running the app and checking behavior
+2\. \*\*No AI-generated secrets or credentials\*\* — environment config was set manually
 
-3\. \*\*No AI-generated secrets or credentials\*\* — environment config was set manually
+3\. \*\*Validation logic was not weakened\*\* — AI was not allowed to suggest bypassing ISBN or field validation
 
-4\. \*\*Validation logic was not weakened\*\* — AI was not allowed to suggest bypassing ISBN or field validation
-
-5\. \*\*Existing architecture was preserved\*\* — AI suggestions followed the existing separation of concerns (routes, models, validators)
+4\. \*\*Existing architecture was preserved\*\* — AI suggestions followed the existing separation of concerns (routes, models, validators)
 
 
 
